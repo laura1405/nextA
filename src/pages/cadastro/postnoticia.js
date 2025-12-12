@@ -17,7 +17,7 @@ export default function Postnoticia() {
             tiponoticia
         };
         try {
-            const response = await fetch("https://g3-snowy.vercel.app/postnoticias", {
+            const response = await fetch("https://fw2api-omega.vercel.app/postnoticias", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
